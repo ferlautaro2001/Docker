@@ -4,8 +4,6 @@
 
 El objetivo es brindar una guía estructurada sobre la gestión de imágenes, contenedores, persistencia de datos (volúmenes), redes y automatización mediante *Dockerfiles*, bajo un enfoque práctico y académico.
 
-> 🚧 Resta agregar un par de secciones más.
-
 ---
 
 ## 🗂️ Estructura del Repositorio
@@ -42,6 +40,18 @@ El objetivo es brindar una guía estructurada sobre la gestión de imágenes, co
 │   ├── 5.Dockerizando.md
 │   ├── 6.Errores.md
 │   └── 7.Soluciones.md
+├── 7. Debug
+│   ├── 1.Docker Logs.md
+│   ├── 2.Docker Stats.md
+│   ├── 3.Docker Top.md
+│   └── 4.Resource Limit.md
+├── 8. Publish
+│   ├── 1.Docker Hub.md
+│   ├── 2.Push.md
+│   ├── 3.Pull.md
+│   ├── 4.Versionado.m
+│   ├── 5.Latest.md
+│   └── 6.Pipeline.md
 └── README.md
 ```
 
@@ -111,5 +121,24 @@ El objetivo es brindar una guía estructurada sobre la gestión de imágenes, co
 | `6.Errores.md` | Análisis de fallos de tiempo de ejecución por dependencias faltantes. |
 | `7.Soluciones.md` | Resolución de dependencias y optimización del *build*. |
 
----
+### 🐞 7. Debug
+> Herramientas de monitoreo y depuración de contenedores.
 
+| Archivo | Descripción |
+| :--- | :--- |
+| `1.Docker Logs.md` | Inspección de salida estándar y logs históricos. |
+| `2.Docker Stats.md` | Monitoreo de recursos (CPU, memoria) en tiempo real. |
+| `3.Docker Top.md` | Análisis de procesos activos dentro del contenedor. |
+| `4.Resource Limit.md` | Configuración de límites de CPU y memoria. |
+
+### 🚀 8. Publish
+> Estrategias de publicación y gestión de imágenes en registros.
+
+| Archivo | Descripción |
+| :--- | :--- |
+| `1.Docker Hub.md` | Introducción a Docker Hub y namespaces. |
+| `2.Push.md` | Procedimientos para subir imágenes a registros. |
+| `3.Pull.md` | Recuperación y portabilidad de imágenes. |
+| `4.Versionado.md` | Implementación de tags y versionado semántico. |
+| `5.Latest.md` | Convenciones y mejores prácticas para el tag `latest`. |
+| `6.Pipeline.md` | Integración de Docker en flujos CI/CD. |
